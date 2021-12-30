@@ -62,6 +62,7 @@ def pilihan3():
                 data_nilai[nilai][prak_ke] = nilai_baru
                 prak1, prak2, prak3 = data_nilai[nilai][1], data_nilai[nilai][2], data_nilai[nilai][3]
                 temp_update = "{} \t {} \t {} \t {}\n".format(nama, prak1, prak2, prak3)
+                print("DATA BERHASIL DI-UPDATE")
                 print("")
                 break
 
